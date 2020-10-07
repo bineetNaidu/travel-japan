@@ -3,6 +3,7 @@ import style from '../styles/index.module.css';
 import Header from '../components/Header';
 import { motion } from 'framer-motion';
 import Place from '../components/Place';
+import places from '../public/places.json';
 
 // Variants
 const containerVariants = {
@@ -19,7 +20,7 @@ const tileVariants = {
   animate: { opacity: 1, transition: { delay: 1 } },
 };
 
-const Index = () => {
+const Index = ({ places }) => {
   return (
     <>
       <div className={style.index}>
@@ -35,11 +36,17 @@ const Index = () => {
             Welcome to Japan
           </motion.h1>
 
-          <Place />
+          {places.map((p) => (
+            <Place {...p} key={p.name} />
+          ))}
         </motion.div>
       </div>
     </>
   );
+};
+
+Index.getInitialProps = () => {
+  return { places };
 };
 
 export default Index;
