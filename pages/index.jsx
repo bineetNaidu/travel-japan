@@ -2,6 +2,7 @@ import React from 'react';
 import style from '../styles/index.module.css';
 import Header from '../components/Header';
 import { motion } from 'framer-motion';
+import Place from '../components/Place';
 
 // Variants
 const containerVariants = {
@@ -33,6 +34,8 @@ const Index = () => {
           <motion.h1 className={style.index__tile} variants={tileVariants}>
             Welcome to Japan
           </motion.h1>
+
+          <Place />
         </motion.div>
       </div>
     </>

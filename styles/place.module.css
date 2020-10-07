@@ -1,0 +1,46 @@
+.place {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  width: 18vw;
+  justify-content: space-around;
+  /* background: #000; */
+}
+
+.place__img {
+  border: 2px solid rgb(255, 90, 90);
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  font-size: 1.25rem;
+  align-items: center;
+  flex-shrink: 0;
+  line-height: 1;
+  user-select: none;
+  border-radius: 50%;
+  justify-content: center;
+}
+
+.place:hover .place__img {
+  padding: 0;
+}
+
+.place__details {
+  display: flex;
+  height: 80%;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.place__info {
+  font-size: smaller;
+  text-transform: uppercase;
+}
+
+.place__name {
+  font-weight: 800;
+  letter-spacing: 1px;
+}
