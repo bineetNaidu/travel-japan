@@ -4,6 +4,196 @@
     "name": "Tokyo",
     "image": "https://images.unsplash.com/photo-1528164344705-47542687000d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
     "short_desc": "Get Into The Future In",
-    "decs": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, cum sunt quas maxime veniam explicabo nihil quidem dolorem in sed libero laboriosam nemo, reiciendis impedit voluptate amet! Similique deleniti voluptates rerum, eaque voluptas eius corporis, vitae, ullam aut repellendus esse laborum aspernatur? Omnis sed dolorum laborum aspernatur similique? Eos, odio."
+    "decs": "Tokyo is the city that reflects the colors of Japan. In Japan, places to visit are endless, and exploring everything in one trip would always be impossible. But, the popular city of Tokyo still deserves the top spot in your itinerary, thanks to its anime culture and world-class attractions. And if the historical sites don’t impress you much, the city has also got a great culinary scene! This is undoubtedly amongst the best places to visit in Japan.",
+    "attractions": ["Tokyo Disneyland", "Tokyo Skytree", "Tokyo DisneySea"],
+    "todo": [
+      " Spend an evening near the Tokyo Tower in Japan",
+      "Shop in Odaiba",
+      "Witness the grandeur of the Meiji Shrine"
+    ],
+    "toStay": ["Guest House Trace", "Manga Art Hotel", "Khaosan Tokyo Samurai"]
+  },
+  {
+    "id": 2,
+    "name": "Kyoto",
+    "image": "https://img.traveltriangle.com/blog/wp-content/tr:w-700,h-400/uploads/2018/02/Kyoto1.jpg",
+    "short_desc": "Sacred And Serene",
+    "decs": "The city of shrines, gardens & palaces! Of all the major Japan destinations, the sacred city of Kyoto is one of the best places to visit in Japan in spring irrespective of whether you are holidaying with your family or your partner. The iconic temples, shrines, palaces, gardens, and the bamboo forests are a treat to the eyes, and you cannot afford to miss it on your first trip.",
+    "attractions": [
+      "Kyoto Imperial Palace",
+      "Philosopher’s Walk",
+      "Fushimi-Inari Taisha Shrine"
+    ],
+    "todo": [
+      "Visit the Kiyomizu Temple",
+      "Explore the Nijo Castle",
+      "Visit the famous Kinkaku-ji"
+    ],
+    "toStay": [
+      "Village Kyoto",
+      "Downtown Inn Kyoto",
+      "Santiago Guesthouse Kyoto"
+    ]
+  },
+
+  {
+    "id": 3,
+    "name": "Nara",
+    "image": "https://img.traveltriangle.com/blog/wp-content/tr:w-700,h-400/uploads/2018/02/Nara1.jpg",
+    "short_desc": "City Of Culture",
+    "decs": "Home to adorable deers, temples & more! No list of the top Japan attractions can ever be complete without including Nara in it. Home to many shrines, monasteries, museums, and the famous Nara Park, this city is where you need to be to get familiarized with the famed Japanese culture and traditions. It definitely features on the list of unmissable places to visit in Japan.",
+    "attractions": [" Nara Park", "Kasuga-taisha", "Ninja Museum of Igaryu"],
+    "todo": [
+      "Visit the Isuien Garden",
+      "Befriend the deers at the Nara-koen Park",
+      "Explore the Nara National Museum"
+    ],
+    "toStay": [
+      "Smile Hotel Nara",
+      "Super Hotel Lohas JR Nara Eki",
+      "Guesthouse Nara Komachi"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Mt. Fuji",
+    "image": "https://assets.traveltriangle.com/blog/wp-content/uploads/2018/02/mt.-fuji.jpg",
+    "short_desc": "A Breathtaking Marvel",
+    "decs": "The paradise for adventure seekers! Renowned around the world for offering the most thrilling experience in Japan, Mt. Fuji is the ultimate place to visit. While the official climbing season begins from July and ends in September, you can witness the beauty from a distance throughout the year. It is one of our most favorite places in Japan. Needless to say, this place ought to be on your list!",
+    "attractions": [
+      "Mount Tenjo",
+      "Chureito Pagoda",
+      "Fujiyoshida Sengen Shrine"
+    ],
+    "todo": [
+      " Go for skiing",
+      "Visit the Arakurayama Sengen Park",
+      "Enjoy the views of Mt. Fuji from the Subashiri 5th Station"
+    ],
+    "toStay": ["Hatago Ichiya", "Bself Fuji Villa", "Hotel Mount Fuji"]
+  },
+  {
+    "id": 5,
+    "name": "Hokkaido",
+    "image": "https://img.traveltriangle.com/blog/wp-content/tr:w-700,h-400/uploads/2018/02/hokkaido.jpg",
+    "short_desc": "Closer To Nature",
+    "decs": "The abode of natural hot springs! Popular for its volcanoes, hot springs, and ski areas, this gorgeous Japanese island looks right out of a picture book. And it is because of its various attractions & experiences that it is an impeccable place to holiday with both your kids and significant other. Be it the beauty of the Blue Pond or the Zoo, you’d be left mesmerized. It is one of the most ideal places to visit in Japan during summer.",
+    "attractions": ["Asahiyama Zoo", "Farm Tomita", "Blue Pond"],
+    "todo": [
+      "Relax in the hot spring",
+      "Treat yourself with scrumptious seafood",
+      "Visit the famous national parks"
+    ],
+    "toStay": [
+      "Yorkshire Farm",
+      "Hotel Park Hills Hokkaido",
+      "Puremiahoteru – CABIN – Obihiro"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Hokkaido",
+    "image": "https://img.traveltriangle.com/blog/wp-content/tr:w-700,h-400/uploads/2018/02/Ishigaki1.jpg",
+    "short_desc": "Exotic Destination",
+    "decs": "The most trending travel spot in Japan! Voted as the most trending travel spot for 2020, the Ishigaki Island is definitely amongst the best places to visit in Japan. Despite its size, the island has no limit when it comes to offering unique experiences to its tourists, and glamming up their holiday in the Japanese land. It has been also voted as the best places to visit in Japan in cherry blossom season.",
+    "attractions": ["Kabira Bay", "Taketomi Island", "Ishigaki Limestone Cave"],
+    "todo": [
+      "Indulge in snorkeling",
+      "Relax on the beaches",
+      "Savour the Ishigaki Beef"
+    ],
+    "toStay": [
+      "Ishigaki Guesthouse HIVE",
+      "Blue Cabin Ishigakijima",
+      "Ishigaki Seaside Hotel"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Hiroshima",
+    "image": "https://img.traveltriangle.com/blog/wp-content/tr:w-700,h-400/uploads/2018/02/Hiroshima1.jpg",
+    "short_desc": "Historically Significant City",
+    "decs": "The city that beautifies Japan’s landscape! In spite of being known around the world for being a victim of the horrendous atomic bombings, Hiroshima continues to be one of the major places to see in Japan. And believe us, apart from the dedicated monuments and sites that reflect the history, the city also has other spellbinding attractions like the Itsukushima shrine. This is the most popular places in Japan.",
+    "attractions": [
+      "Hiroshima Peace Memorial Park & Museum",
+      "Hiroshima Castle",
+      "Itsukushima"
+    ],
+    "todo": [
+      "Try Okonomiyaki, the local delicacy",
+      "Visit the Mazda Museum",
+      "Capture pictures at the Shukkeien Garden"
+    ],
+    "toStay": [
+      "K’s House Hiroshima",
+      "Grand Prince Hotel Hiroshima",
+      "Court Hotel Hiroshima"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Sapporo",
+    "image": "https://img.traveltriangle.com/blog/wp-content/tr:w-700,h-400/uploads/2018/02/sapporo.jpg",
+    "short_desc": "Forget The Heat And Humidity",
+    "decs": "A haven for beer and ski lovers! With cities like Sapporo, ‘what to see in Japan’ would never be your top concern. The city not only helps you escape the heat and humidity but also help you discover your winter wonderland during its famous Sapporo Annual Snow Festival. If not the gardens, then the huge snow sculptures would definitely steal your heart! This is one of the best places to see in Japan!",
+    "attractions": [
+      "Hiroshima Peace Memorial Park & Museum",
+      "Hiroshima Castle",
+      "Itsukushima"
+    ],
+    "todo": [
+      "Try Okonomiyaki, the local delicacy",
+      "Visit the Mazda Museum",
+      "Capture pictures at the Shukkeien Garden"
+    ],
+    "toStay": [
+      "K’s House Hiroshima",
+      "Grand Prince Hotel Hiroshima",
+      "Court Hotel Hiroshima"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Osaka",
+    "image": "https://img.traveltriangle.com/blog/wp-content/tr:w-700,h-400/uploads/2018/02/Osaka1.jpg",
+    "short_desc": "A Cultural Delight",
+    "decs": "With the best shopping arcades, eateries that offer incredible food, and the top nightlife hotspots in the city, Osaka is one of the major places to go in Japan. Believe us, it would not only pamper the foodie or party lover in you, but also the die-hard tourist who loves witnessing the wonders of every place he or she visits. This is most preferred places to visit in japan for first timers!",
+    "attractions": [
+      "Hiroshima Peace Memorial Park & Museum",
+      "Hiroshima Castle",
+      "Itsukushima"
+    ],
+    "todo": [
+      "Try Okonomiyaki, the local delicacy",
+      "Visit the Mazda Museum",
+      "Capture pictures at the Shukkeien Garden"
+    ],
+    "toStay": [
+      "K’s House Hiroshima",
+      "Grand Prince Hotel Hiroshima",
+      "Court Hotel Hiroshima"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Yakushima",
+    "image": "https://img.traveltriangle.com/blog/wp-content/tr:w-700,h-400/uploads/2018/02/Yakushima1.jpg",
+    "short_desc": "Naturally Gifted",
+    "decs": "With the best shopping arcades, eateries that offer incredible food, and the top nightlife hotspots in the city, Osaka is one of the major places to go in Japan. Believe us, it would not only pamper the foodie or party lover in you, but also the die-hard tourist who loves witnessing the wonders of every place he or she visits. This is most preferred places to visit in japan for first timers!",
+    "attractions": [
+      "Hiroshima Peace Memorial Park & Museum",
+      "Hiroshima Castle",
+      "Itsukushima"
+    ],
+    "todo": [
+      "Try Okonomiyaki, the local delicacy",
+      "Visit the Mazda Museum",
+      "Capture pictures at the Shukkeien Garden"
+    ],
+    "toStay": [
+      "K’s House Hiroshima",
+      "Grand Prince Hotel Hiroshima",
+      "Court Hotel Hiroshima"
+    ]
   }
 ]
