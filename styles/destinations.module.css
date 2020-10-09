@@ -1,0 +1,30 @@
+.destinations {
+  background: #5d1616d6;
+  color: white;
+  height: 100vh;
+  padding: 5vh 5vw;
+}
+
+.destinations > h1 {
+  margin-bottom: 2rem;
+}
+
+.destinations__wrapper {
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.destinations__item {
+  flex: 1;
+  padding: 10px;
+}
+
+@media (max-width: 550px) {
+  .destinations__wrapper {
+    flex-direction: column;
+    padding: 0 2vw;
+  }
+}

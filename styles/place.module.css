@@ -3,7 +3,7 @@
   align-items: center;
   height: 80px;
   width: 25vw;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .place__img {
@@ -43,4 +43,10 @@
 .place__name {
   font-weight: 800;
   letter-spacing: 1px;
+}
+
+@media (max-width: 550px) {
+  .place__details {
+    display: none;
+  }
 }
