@@ -38,6 +38,12 @@
   font-size: 4rem;
 }
 
+.top__places {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+}
+
 @media (min-width: 850px) {
   .index__tile {
     font-size: 3rem;
@@ -47,5 +53,8 @@
 @media (max-width: 550px) {
   .index__tile {
     font-size: 2rem;
+  }
+  .top__places {
+    flex-wrap: wrap;
   }
 }

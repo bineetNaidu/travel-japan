@@ -3,7 +3,7 @@ import style from '../styles/index.module.css';
 import Header from '../components/Header';
 import { motion } from 'framer-motion';
 import Place from '../components/Place';
-import places from '../public/places.json';
+import placesData from '../public/places.json';
 
 // Variants
 const containerVariants = {
@@ -36,9 +36,11 @@ const Index = ({ places }) => {
             Welcome to Japan
           </motion.h1>
 
-          {places.map((p) => (
-            <Place {...p} key={p.name} />
-          ))}
+          <div className={style.top__places}>
+            {places.map((p) => (
+              <Place {...p} key={p.id} />
+            ))}
+          </div>
         </motion.div>
       </div>
     </>
@@ -46,6 +48,12 @@ const Index = ({ places }) => {
 };
 
 Index.getInitialProps = () => {
+  let places = [];
+  let i = 0;
+  while (i !== 3) {
+    places.push(placesData[i]);
+    i++;
+  }
   return { places };
 };
 
